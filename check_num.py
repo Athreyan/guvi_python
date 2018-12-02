@@ -5,4 +5,6 @@ elif(num==0):
 	print("Number is Equal to Zero !!")
 elif(num>0):
 	print("POSITIVE !!")
+else:
+        print("Invail Input")
 	
