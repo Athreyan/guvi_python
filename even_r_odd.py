@@ -1,6 +1,6 @@
-num=int(input("Enter the number :"))	
+num=int(input(""))	
 if(num<0):
-	print("INVALID !!")
+	print("INVALID")
 elif(num%2==0):
 	print("EVEN")
 else:
