@@ -1,10 +1,10 @@
 num=int(input())
 if(num<0):
-	print("NEGATIVE !!")
+	print("Negative")
 elif(num==0):
 	print("Zero")
 elif(num>0):
-	print("POSITIVE !!")
+	print("Positive")
 else:
         print("Invail Input")
 	
