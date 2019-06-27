@@ -1,5 +1,5 @@
 wrd=input("Enter the Input :")
 if wrd.isalpha():
-	print("ALPHABET")
+	print("Alphabet")
 else:
-	print("NO")
+	print("No")
