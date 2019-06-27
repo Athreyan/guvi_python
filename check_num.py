@@ -5,6 +5,5 @@ elif(num==0):
 	print("Zero")
 elif(num>0):
 	print("Positive")
-else:
-        print("Invail Input")
+
 	
