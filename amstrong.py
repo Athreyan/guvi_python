@@ -1,0 +1,11 @@
+val=int(input())
+l=len(str(val))
+su=0
+su2=val
+while(su2!=0):
+    su=su+((su2%10)**l)
+    su2=su2//10
+if(su==val):
+    print("yes")
+else:
+    print("no")
