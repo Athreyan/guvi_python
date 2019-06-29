@@ -8,5 +8,5 @@ for i in dd:
 print(minval)
     
     
-#sor=sorted(dd,reverse=False)
+#sor=sorted(dd,reverse=True)
 #print(sor[num-1])
