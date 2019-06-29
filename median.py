@@ -1,0 +1,5 @@
+num=int(input())
+dd=list(map(int,input().split()[:num]))
+dd.sort()
+mid=int((len(dd)-1)/2)
+print(dd[mid])
