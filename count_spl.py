@@ -1,4 +1,4 @@
-a="dji*#(nfj"
+a=input()
 g=c=0
 for d in a:
     if(d.isalpha() or d.isnumeric()):
