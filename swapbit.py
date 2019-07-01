@@ -1,5 +1,5 @@
-n1,n2=map(int,input().split())
-n1=n1+n2
-n2=n1-n2
-n1=n1-n2
-print(n1,n2)
+val1,val2=map(int,input().split())
+val1=val1+val2
+val2=val1-val2
+val1=val1-val2
+print(val1,val2)
