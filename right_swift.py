@@ -1,6 +1,6 @@
-le,lim=map(int,input().split())
-lis=list(map(int,input().split()[:le]))
+lenn,lim=map(int,input().split())
+listt=list(map(int,input().split()[:lenn]))
 
 for i in range(0,lim):
-    lis=[lis[-1]]+lis[:-1]
-print(*lis,end=" ")
+    listt=[listt[-1]]+listt[:-1]
+print(*listt,end=" ")
