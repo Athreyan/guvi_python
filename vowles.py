@@ -1,9 +1,7 @@
-word=input("Enter the charater :")
-wrd=word.lower()
-if len(wrd)>0 and wrd.isalpha():
-	if wrd in 'aeiou':
-		print("Vowel")
-	else:
-		print("Consonant")
+val=input()
+for i in val:
+    if i=="a" or i=="e"or i=="i" or i=="o" or i=="u":
+        print("yes")
+        break
 else:
-	print("invalid")
+    print("no")
