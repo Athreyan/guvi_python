@@ -1,8 +1,8 @@
 s=input("")
-w=""
+m=""
 for i in s:
-    w=i+w
-if s==w:
+    m=i+m
+if s==m:
     print("yes")
 else:
     print("no")
