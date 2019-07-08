@@ -4,7 +4,7 @@ a=len(ll)
 l2=[]
 j=0
 while j<a:
-    if j==ll[i]:
+    if j==ll[j]:
         l2.append(j)
     j=j+1
 if l2:
